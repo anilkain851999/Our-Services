@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section#hero_banner_service {
+    background: url(./img/business-g6f88debc3_1920.webp);
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+}
+section#our_service .container-fluid {
+    padding: 0 122px;
+}
+section#our_service h1 {
+    font-size: 33px;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+
+section#our_service {
+    padding: 40px 0;
+}
+p.text-center.red_para {
+    color: #FF0000;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.para_content p {
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 500;
+    font-family: inherit;
+}
+section#secudal_contect .container-fluid {
+    padding: 0 122px;
+}
+.contact_form {
+    background: #000;
+    padding: 30px;
+    width: 600px;
+    margin: 0 auto;
+}
+label.form-label {
+    color: #FF0000;
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 15px;
+    font-style: normal;
+    text-align: center;
+}
+section#secudal_contect input {
+    border-radius: 0;
+    border: 2px solid red;
+    width: 265px;
+    color: red;
+    font-style: italic;
+}section#secudal_contect ::placeholder {
+    color: red;
+    font-style: italic;
+}
+
+.mb-3.space_left {
+    margin-right: 20px;
+}
+.button_submit.text-center button.btn.btn-primary {
+    padding: 8px 80px;
+    background: #ff0101;
+    border: 4px solid #fe6060;
+    border-radius: 0;
+    font-size: 22px;
+    font-family: initial;
+    font-weight: 700;
+}
+.time_table img {
+    border: 3px solid #ff0101;
+    position: relative;
+}
+.time_table {
+    position: absolute;
+}
+.button_submit.text-center {
+    margin-top: 25px;
+}
+input#full_mess {
+    width: 550px !important;
+}
+.time_table p.red_para {
+    position: absolute;
+    z-index: 9;
+    left: 31%;
+    top: 11px;
+    color: #ff0101;
+    font-size: 22px;
+    font-weight: 700;
+}
+.Contact_us h2 {
+    font-size: 32px;
+    color: #ff0101;
+    text-align: center;
+    font-family: initial;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+button.btn.btn-primary:hover {
+    background: #c0d1ed !important;
+    color: #ff0101 !important;
+}
+@media screen and (max-width: 1024px) {
+    .time_table {
+        position: relative;
+        text-align: center;
+    }
+    .contact_form {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+   
+  }
+
+@media screen and (max-width:768px){
+    .time_table img {
+        width: 533px;
+    }
+    section#secudal_contect input {
+        width: 100% !important;
+    }
+    .name_f_l.d-flex.align-items-center {
+        display: inherit !important;
+    }
+    .mb-3.space_left {
+        margin-right: 0;
+    }
+    .email_phone.d-flex.align-items-center {
+        display: inherit !important;
+    }
+}
+
+@media screen and (max-width:600px){
+section#our_service .container-fluid {
+    padding: 0 30px;
+}
+section#secudal_contect .container-fluid {
+    padding: 0 30px;
+}
+.time_table img {
+    width: 355px;
+}
+.time_table p.red_para {
+    left: 19%;
+    top: -1px;
+}
+.contact_form {
+    width: 100%;
+}
+}
